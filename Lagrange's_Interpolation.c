@@ -19,7 +19,7 @@ int main()
         p=1;
         for(j=0; j<n; j++){
             if(i != j){
-                p = p * ((a - x[i])/(x[i]-x[j]));
+                p = p * ((a - x[j])/(x[i]-x[j]));
             }
         }
         sum = sum + (p * y[i]);
