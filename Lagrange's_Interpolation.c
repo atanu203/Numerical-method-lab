@@ -9,8 +9,8 @@ int main()
     scanf("%d", &n);
     printf("Enter data from the given table:\n");
     for(i=0; i<n; i++){
-        scanf("%f", x[i]);
-        scanf("%f", y[i]);
+        scanf("%f", &x[i]);
+        scanf("%f", &y[i]);
     }
     printf("\nEnter the interpolating point: ");
     scanf("%f", &a);
